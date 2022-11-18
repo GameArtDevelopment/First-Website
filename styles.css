@@ -1,0 +1,21 @@
+body {
+    background-color: rgb(229, 228, 228);
+}
+h1 {color: rgb(214, 24, 27);}
+p {color: orange;}
+.mid {
+    color: blue;
+    font-size: medium;
+}
+.uppercase {
+    color:rgb(148, 25, 219);
+    font-size: small;
+}
+span {
+    color: darkgoldenrod;
+    font-size: x-small;
+}
+h2 span {
+    font-size: large;
+    color: dimgray;
+}
