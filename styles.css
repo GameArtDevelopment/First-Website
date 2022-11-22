@@ -14,6 +14,7 @@ header{
 h1, h2{
     font-family: 'Press Start 2P', cursive;
 }
+/* Header Style */
 header h1 {
     color: rgb(214, 24, 27);
     font-size: 50px;
@@ -62,6 +63,10 @@ p.caption{
     color: grey;
     font-style: italic;
     margin-top: 0;
+    height: 1px;
+    animation-name: bounce;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
 }
 .mid {
     color: blue;
@@ -78,4 +83,11 @@ span {
 h2 span {
     font-size: large;
     color: dimgray;
+}
+/* Defining animation keyframes */
+@keyframes bounce{
+    
+    30%{
+        transform: scale(.5);
+    }
 }
